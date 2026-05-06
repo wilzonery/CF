@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Video Converter"
+version = "1.0.0"
+id = "artifacts/video-converter"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25065
+
+[services.development]
+run = "pnpm --filter @workspace/video-converter run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/video-converter", "run", "build" ]
+publicDir = "artifacts/video-converter/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25065"
+BASE_PATH = "/"

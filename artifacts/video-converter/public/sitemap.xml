@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage / Main converter -->
+  <url>
+    <loc>https://media-converter-online--wilzoners.replit.app/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://media-converter-online--wilzoners.replit.app/"/>
+  </url>
+
+  <!-- Google Search Console verification -->
+  <url>
+    <loc>https://media-converter-online--wilzoners.replit.app/google4044dec080290451.html</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://media-converter-online--wilzoners.replit.app/google436c96adb7955eee.html</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.1</priority>
+  </url>
+
+</urlset>
